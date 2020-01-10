@@ -1,0 +1,156 @@
+body{
+    background-color:rgba(201, 194, 194, 0.438);
+
+    font-family: 'Courier';
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Beth Ellen', cursive;
+    font-family: 'Grenze', serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Long Cang', cursive;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Righteous', cursive;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Lemonada', cursive;
+    font-family: 'Eczar', serif;
+    font-family: 'Lora', serif;
+}
+a{
+    color:inherit;
+}
+a:hover{
+    text-decoration: none;
+    color:inherit;
+}
+header{
+    background-color:white;
+    height:90px;
+    text-align: center;
+    padding:20px 10px 20px 10px;
+    font-size: 2rem;
+    font-weight: bolder;
+    box-shadow: 0px 0px 5px 5px rgba(160, 158, 148, 0.219);
+    
+}
+.header-sub{
+    font-size: 0.8rem;
+    position: absolute;
+    top:65px;
+    left:60%;
+    font-weight: 100;
+}
+
+main{
+    padding:5% 10%;
+}
+.sub-bar span{
+    font-size: .7rem;
+    opacity: .5;
+    margin-left: 10px;
+}
+.sub-bar span:hover{
+    opacity:1;
+}
+.img-line{
+    margin:50px 0px;
+}
+.img-box{
+    background-color:rgba(252, 243, 243, 0.767);
+    padding:1.5% 0.5%;
+    margin:2% 0%;
+    width:24%;
+    display:inline-block;
+    text-align: center;
+    border-radius: 2px;
+}
+.img{
+    height:15vw;
+    width:95%;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    transition:.5s;
+}
+.img:hover{
+    box-shadow: 0px 0px 10px 10px rgba(173, 169, 158, 0.4);
+    transition:.5s;
+}
+.contact-icon{
+    text-decoration: none;
+    color:black;
+    display: inline-block;
+    width:10px;
+}
+
+
+
+@font-face {
+	font-family: 'MyFont';
+    src: url(851H-kktt_004.ttf);
+    
+}
+
+footer{
+    background-color:rgba(252, 243, 243, 0.767);
+    height:70px;
+}
+.footer-hash{
+    font-family: MyFont;
+    display:inline-block;
+    margin:30px 0px 0px 10%;
+}
+.contacts{
+   
+    position: relative;
+    left:70%;
+    top:-20px;
+}
+.contact-icon{
+    display: inline-block;
+    width:30px;
+    height:30px;
+    padding-top: 4px;
+    padding-left: 8px;
+    color:rgb(252, 235, 235);
+    background: rgba(0, 2, 2, 0.89);
+    border-radius: 50%;
+
+}
+.contact-icon:hover{
+    opacity:0.8;
+    background: rgba(140, 143, 143, 0.76);
+    transition:1s;
+}
+
+
+
+
+/* スクリーン幅　900以下 */
+@media screen and (max-width:900px) {
+
+    .img-box{
+        width:45%;
+        margin:2% 2%;
+    }
+    .img{
+        height:13rem;
+    }
+
+
+}
+
+/* スクリーン幅　４５０以下 */
+@media screen and (max-width:450px) {
+
+    .img-box{
+        width:80%;
+        margin:2% 10%;
+    }
+    .img{
+        height:14rem;
+    }
+
+
+}

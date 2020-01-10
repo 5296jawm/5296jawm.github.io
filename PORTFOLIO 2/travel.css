@@ -1,0 +1,257 @@
+@font-face {
+	font-family: 'MyFont';
+	src: url(851H-kktt_004.ttf);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+body{
+    font-family: MyFont;
+}
+header{
+   background-image:url(http://drive.google.com/uc?export=view&id=16kDiqqPa2ivhM8tnWi56m3nFJeHI8_SH);
+   background-size: cover;
+   background-position: bottom;
+    width:100%;
+    height:600px;
+    color:white;
+}
+.bg-cover{
+    background-color: rgba(29, 26, 26, 0.123);
+    height:100%;
+    padding:15% 10%;
+}
+.title-name{
+    font-size: 4vw;
+    margin-left: 10%;
+    margin-bottom: 7vw;
+}
+.title-name br{
+    display: none;
+}
+.contacts{
+    margin-left: 10%;
+}
+
+.intro-wrapper{
+    background-color: rgba(63, 51, 44, 0.164);
+    height:100%;
+    padding:6% 15%;
+}
+.intro-wrapper span{
+    font-size: 1.1rem;
+}
+.img-box{
+    height:25vw;
+    min-height: 300px;
+    background-position: center;
+    background-size: cover;
+    padding:0px;
+}
+.img-bg{
+    background-color: rgba(102, 87, 87, 0.527);
+    width:100%;
+    height:100%;
+    color:white;
+    text-align: center;
+    transition:1s;
+}
+.img-title{
+    display: block;
+    padding-top:10vw;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.img-bg:hover{
+    background-color: rgba(250, 235, 215, 0.233);
+    color: black;
+    font-size: 2.2rem;
+    transition:1s;
+
+}
+.move-ex{
+    margin:3vw 0px;
+}
+.img-1{
+    background-image: url(http://drive.google.com/uc?export=view&id=1et_RGITPYTlWg-4jNpXMBJurhOuYquvx);
+    background-position: center;
+}
+.img-2{
+    background-image: url(http://drive.google.com/uc?export=view&id=1SJbzOby79Yo1CDelNF2tC7Fnsq9nec1r);
+    background-position: center;
+}
+.img-3{
+    background-image: url(http://drive.google.com/uc?export=view&id=1et_RGITPYTlWg-4jNpXMBJurhOuYquvx);
+    background-position: center;
+}
+
+
+.move-wrapper{
+    height:100%;
+    background-color: rgba(236, 236, 231, 0.253);
+    text-align: center;
+}
+.move-wrapper span{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.chck{
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
+.arrow{
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    background-color: black;
+    display: inline-block;
+    width:2rem;
+    height:2rem;
+    margin:20px 40%;
+}
+
+.rm-img{
+    width:300px;
+    height:200px;
+    margin:10px;
+    border:1px solid rgb(190, 166, 166);
+
+}
+/* .rm-img:hover{
+    width:40%;
+    z-index: 999;
+    position: relative;
+    transition: 2s;
+} */
+.txt-dt p{
+    text-align: left;
+}
+.txt-dt{
+    width:30%;
+    display: inline-block;
+    float: left;
+}
+.dt-title{
+    width:30%;
+    display: inline-block;
+}
+.dt-dc{
+    text-align: right;
+}
+.dt-sum{
+
+    margin-left: 10%;
+    font-size: 1.5rem;
+}
+
+footer{
+    background-color: rgb(66, 56, 56);
+    color:white;
+    text-align: center;
+    height:100%;
+    padding-top:5%;
+
+}
+.footer-title{
+    font-size: 3rem;
+}
+.footer-dec-1{
+    clip-path: polygon(70% 0, 0 0, 100% 70%);
+    background-color: white;
+    width:4vw;
+    height:4vw;
+    display: inline-block;
+}
+.footer-dec-2{
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    background-color: white;
+    width:3vw;
+    height:8vw;
+    display: inline-block;
+}
+.footer-dec-3{
+    clip-path: polygon(100% 0, 30% 0, 0 70%);
+    background-color: white;
+    width:4vw;
+    height:4vw;
+    display: inline-block;
+}
+.footer-contacts{
+
+}
+.contact-icon{
+    display: inline-block;
+    width:80px;
+    height:80px;
+    padding: 15px;
+    color:rgb(252, 235, 235);
+    border-radius: 50%;
+    margin:-100px 0px 100px 0px;
+}
+.contact-icon:hover{
+    opacity:0.8;
+    background: rgba(140, 143, 143, 0.76);
+    transition:1s;
+}
+.contacts-min{
+    display: none;;
+}
+
+/* ウインドウ幅 */
+
+@media screen and (max-width:768px) {
+    
+
+
+    header{
+        height:400px;
+     }
+
+    .title-name{
+        font-size: 35px;
+        margin-left: 20%;
+    }
+    .title-name br{
+        display: block;
+    }
+    .title-name span{
+        margin-left: 40px;
+    }
+    .contacts a{
+        
+        display: block;
+        margin-left:75% !important;
+        margin-top:15px;
+    }
+    .img-title{
+        display: block;
+        padding-top:25%;
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+    .text-dt{
+        width:100%;
+    }
+ 
+    .dt-title{
+        width:40%;
+    }
+    .move-wrapper{
+        padding:0px 30px;
+    }
+    .footer-contacts{
+        display:none;
+    }
+    .contacts-min{
+        display: block;
+        padding-bottom: 50px;
+    }
+    
+}
